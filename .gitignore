@@ -1,2 +1,4 @@
 password.doc
-file-key.key
+# file-key.key
+.key
+.doc
