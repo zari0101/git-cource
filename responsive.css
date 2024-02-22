@@ -1,0 +1,57 @@
+/*///// mobile & tablet /////*/
+@media only screen and (max-width:800px) {
+    .container {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .project__wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    .header__left,
+    .header__right {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header__left {
+        max-width: 80%;
+        margin-top: 3rem;
+        padding: 1.5rem 0;
+    }
+
+    .menubar ul {
+        justify-content: center;
+    }
+}
+
+
+/*///// laptop /////*/
+@media only screen and (min-width:1024px) {
+    .container {
+        max-width: 98%;
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+
+    .project__wrapper {
+        padding: 2rem 0;
+    }
+
+    .header__left {
+        padding: 1rem 0;
+    }
+}
+
+
+/*///// desktop /////*/
+@media only screen and (min-width:1200px) {
+    .container {
+        max-width: 1500px;
+    }
+}
